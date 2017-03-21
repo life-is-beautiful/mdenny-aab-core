@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mdenny-aab-core
+  host: mdenny-aab-core
+  disk_quota: 1024M
+  services:
+  - Conversation-pn
+  - Twilio-vy
